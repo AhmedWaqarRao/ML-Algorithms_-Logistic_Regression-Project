@@ -1,0 +1,6 @@
+Analyzing Advertising Dataset to Predict Ad Click using Logistic RegressionAnalyzing Advertising Dataset to Predict Ad Click using Logistic Regression
+
+Using advertising.csv dataset we try to predict whether a user based on different input parameters
+such as age, daily time spent on site, daily internet usage etc clicked on ad or not.
+We use Logistic Regression and provide input parameters and try to predict output label which is clicked on ad. 
+We also cleaned the data, and converted some continuous data to categorical data in order to extract maximum information from the data.
