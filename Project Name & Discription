@@ -1,6 +1,19 @@
-Analyzing Advertising Dataset to Predict Ad Click using Logistic RegressionAnalyzing Advertising Dataset to Predict Ad Click using Logistic Regression
+1. Analyzing Advertising Dataset to Predict Ad Click using Logistic RegressionAnalyzing Advertising Dataset to Predict Ad Click using Logistic Regression
 
-Using advertising.csv dataset we try to predict whether a user based on different input parameters
-such as age, daily time spent on site, daily internet usage etc clicked on ad or not.
-We use Logistic Regression and provide input parameters and try to predict output label which is clicked on ad. 
-We also cleaned the data, and converted some continuous data to categorical data in order to extract maximum information from the data.
+Using the advertising.csv dataset we try to predict whether a user based on different input parameters
+such as age, daily time spent on site, daily internet usage, etc clicked on an ad or not.
+We use Logistic Regression to provide input parameters and try to predict the output label that is clicked on the ad. 
+We also cleaned the data and converted some continuous data to categorical data to extract maximum information from the data.
+
+
+2. Titanic Dataset to Predict Surviving PassengersTitanic Dataset to Predict Surviving Passengers
+
+Using the titanic_train.csv dataset tried to predict whether the passenger survived or not using Logistic Regression. 
+Some of the columns were missing values, 
+so we cleaned the data first either by deleting the row altogether 
+or by extrapolating the values of the non-null entries to null entries 
+if the column was not missing a lot of the values. We then train by 
+logistic regression which is a binary classifier and predicts either 
+Survived or not survived,
+based on other input features from the titanic_train.csv dataset. 
+Then we test our trained model on the titanic_test.csv dataset.
